@@ -1,6 +1,4 @@
-# grrr
-
-FIXME
+# GRRR! - Github Readme ReadeR
 
 ## Prerequisites
 

@@ -1,5 +1,4 @@
-(ns grrr.routes.home
-  (:use compojure.core)
+(ns grrr.routes.home (:use compojure.core)
   (:require [grrr.views.layout :as layout]
             [grrr.util :as util]
             [me.raynes.laser :as laser]))
@@ -21,8 +20,7 @@
 
 (defn render-readme [user project]
   (let [url (build-url user project)
-        html (slurp url)
-        phtml (laser/parse html)]
+        phtml (laser/parse (slurp url))]
 
     (layout/render "base.html" {:content (extract-readme phtml)
                                 :links (extract-links phtml)
