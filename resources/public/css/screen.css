@@ -1,0 +1,48 @@
+body {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+#wrapper {
+    overflow: hidden;
+    margin: 30px auto;
+    width: 900px;
+    padding-bottom: 30px;
+}
+
+#content {
+  width: 600px;
+  margin-left: 300px;
+}
+
+#sidebar {
+  width: 200px;
+  position: fixed;
+}
+
+#sidebar li {
+  list-style: none;
+  border-bottom: 1px dotted #ccc;
+  line-height: 2.0;
+}
+
+footer {
+  padding-bottom: 10px;
+}
+
+#clj-logo {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+}
+
+.f-left {
+  text-align: left;
+  float: left;
+  margin-left: 10px;
+}
+
+.f-right {
+  text-align: right;
+  margin-right: 35px;
+}
