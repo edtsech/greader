@@ -1,6 +1,6 @@
 (defproject grrr "0.1.0-SNAPSHOT"
-  :description "FIXME: write description"
-  :url "http://example.com/FIXME"
+  :description "Github Readme ReadeR"
+  :url "grrrapp.heroku.com"
   :dependencies [[org.clojure/clojure "1.5.0"]
                  [lib-noir "0.4.9"]
                  [compojure "1.1.5"]
