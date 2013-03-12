@@ -6,8 +6,6 @@
                  [compojure "1.1.5"]
                  [clabango "0.4"]
                  [ring-server "0.2.7"]
-                 [com.taoensso/timbre "1.5.2"]
-                 [markdown-clj "0.9.19"]
                  [me.raynes/laser "1.1.1"]]
   :plugins [[lein-ring "0.8.3"]]
   :ring {:handler grrr.handler/war-handler
