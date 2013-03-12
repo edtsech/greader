@@ -4,10 +4,10 @@ body {
 }
 
 #wrapper {
-    overflow: hidden;
-    margin: 30px auto;
-    width: 900px;
-    padding-bottom: 30px;
+  overflow: hidden;
+  margin: 30px auto;
+  width: 900px;
+  padding-bottom: 30px;
 }
 
 #content {
@@ -24,25 +24,4 @@ body {
   list-style: none;
   border-bottom: 1px dotted #ccc;
   line-height: 2.0;
-}
-
-footer {
-  padding-bottom: 10px;
-}
-
-#clj-logo {
-  position: fixed;
-  right: 10px;
-  bottom: 10px;
-}
-
-.f-left {
-  text-align: left;
-  float: left;
-  margin-left: 10px;
-}
-
-.f-right {
-  text-align: right;
-  margin-right: 35px;
 }
