@@ -1,17 +1,19 @@
-# GRRR! - Github Readme ReadeR
+# GReader - Github Readme Reader
 
-## Prerequisites
+This project improves your GitHub readme experience :)
 
-You will need [Leiningen][1] 2.0 or above installed.
+## Video
 
-[1]: https://github.com/technomancy/leiningen
+## Browser extensions
 
-## Running
+* Chrome
 
-To start a web server for the application, run:
+## TODO
 
-    lein ring server
+* Add extensions for other browsers
+* Extract all headers
+* Tree view ?
 
 ## License
 
-Copyright © 2013 FIXME
+Copyright © 2013 Edward Tsech
