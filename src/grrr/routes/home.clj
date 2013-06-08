@@ -28,6 +28,6 @@
 
 (defroutes home-routes
   (GET "/" []
-       (render-readme "edtsech" "grrr"))
+       (render-readme "edtsech" "greader"))
   (GET "/:user/:project" [user project]
        (render-readme user project)))
